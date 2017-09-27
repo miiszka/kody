@@ -16,45 +16,37 @@ int main(int argc, char **argv)
     a = b = c = 0;
     cout << "Podaj 3 liczby: ";
     cin >> a >> b >> c;
-    if (a > b) 
+    if (a > b &&  a > c) 
     {
-        if (a > c)
-                    cout << "Najwększe a=" << a;
-        else if (c > a)
-                    cout << "Największe c=" << c;
-        else if (c == a)
-                    cout << "Największe c=a=" <<a;
-                    
+        cout << "Najwększe a=" << a;
     }
-    else if (b > a) 
+    if (b > a && b > c) 
     {
-        if (b > c)
-                    cout << "Najwększe b=" << b;
-        else if (c > b)
-                    cout << "Największe c=" <<c;
-        else if (c == b)
-                    cout << "Największe b=a=" << a;
+        cout << "Najwększe b=" << b;
     }
-    else if (c > a)
+    if (c > a && c > b)
     {
-        if (c > b)
-                    cout << "Największe c=" << c;
-        else if (b > c)
-                    cout << "Największe b=" << b;
-        else if (b == c)
-                    cout << "Największe b=c=" <<b;
+        cout << "Największe c=" << c;
     }
-    else if (a == b)
+    if (a == b && a > c)
     {
-        if (c == b)
-                    cout << "a=b=c" << a;
-        
-        
-        
+        cout << "Największe a=b=" << a;
         
     }
-    
-    
+    if (a == c && a > b)
+    {
+        cout << "Największe a=c=" << a;
+        
+    }
+    if (c == b && b > a)
+    {
+        cout << "Największe c=b=" << b;
+        
+    }
+    if (a == b && a == c)
+    {
+        cout << "Liczby równe";
+    }
     
     
 	return 0;
