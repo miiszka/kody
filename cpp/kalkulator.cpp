@@ -9,8 +9,7 @@ using namespace std;
 
 int main(int argc, char **argv)
 {
-    char znak; // +, -, *, /
-    znak = +, -, *, /
+    char znak;// +, -, *, /
     int a, b;
     a = b = 0;
     cout << "Podaj znak: " << endl;
