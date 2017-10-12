@@ -4,13 +4,14 @@
 
 
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
 int main(int argc, char **argv)
 {
-    char znak; // +, -, *, /
-    znak = +, -, *, /
+    char znak; // + , - , * , /
+    znak = + , -, *, /
     int a, b;
     a = b = 0;
     cout << "Podaj znak: " << endl;
