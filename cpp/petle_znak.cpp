@@ -12,11 +12,15 @@ int main(int argc, char **argv)
 {
     char zn='t';
    
-    while ( = ) {
+    while (zn == 't' || zn == 'T' || zn == 'n' || zn == 'N') 
+    {
+        cout << "Podaj znak: " << endl;
+        cin >> zn;
+        cout << zn << endl;
+
+            
+            }
     
-        cout << "Podaj miesiąc (1-12): " << endl;
-        cin >> m;
-    };
 
    
     
