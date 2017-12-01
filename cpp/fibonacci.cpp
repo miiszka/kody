@@ -18,6 +18,14 @@ int fib_iter(int n)
     }
     cout << a;
     for (int i = 2; i < n; i++)
+    {
+        int tmp;
+        tmp = b
+        b = a + b
+        a = tmp
+    }
+    cout << a << "Wyraz: " << i <<  ": " << b << "Iloraz: " << b / a;
+    return b;
 }
 
 int main(int argc, char **argv)
