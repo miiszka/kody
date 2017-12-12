@@ -2,6 +2,12 @@
 # -*- coding: utf-8 -*-
 
 
+def fib_rek(n):
+    if n == 1:
+        return 1
+    return fib_rek(n - 2) + (n - 1)
+
+
 def fib_iter(n):
     """Funkcja wyświetla kolejne wyrazy ciągu Fibonacciego.
     Funkcja zwraca n-ty wyraz ciągu.
