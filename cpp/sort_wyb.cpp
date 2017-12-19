@@ -33,7 +33,7 @@ void zamien(int &a, int &b)
 }
 
 
-void sort_wyb(int t[], int n[])
+void sort_wyb(int t[], int n)
 {
     int k;
     for(int i = 0; i < n; i++)
