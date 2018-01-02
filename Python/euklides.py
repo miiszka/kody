@@ -5,7 +5,7 @@
 def euklides_rek(a, b):
     if b == 0:
         return a
-    return euklides_rek(b, a%b)
+    return euklides_rek(b, a % b)
 
 
 def euklides(a, b):
@@ -15,6 +15,7 @@ def euklides(a, b):
         else:
             b = b - a
     return a
+
 
 def euklides2(a, b):
     while a > 0:

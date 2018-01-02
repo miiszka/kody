@@ -23,7 +23,6 @@ def silnia_it(liczba):
 
 def main(args):
     a = int(input("Podaj liczbę: "))
-    # print("Wynik: ", potega_it(podst, wykladnik))
     assert type(a) == int
 
     assert silnia_it(0) == 1
