@@ -15,6 +15,30 @@ def sort_wstaw(lista):
     return lista
 
 
+def wyszukaj_binarnie(lista, el):
+    lewy, prawy = 0, len(lista) - 1
+    while lewy < prawy:
+        srodek = floor((lewy + prawy) / 2)
+        print(srodek)
+        if el <= lista[srodek]:
+            prawy = srodek
+        else:
+            lewy = srodek + 1
+    if lista[lewy] == el:
+        return lewy
+    return -1
+
+
+def sort_wstaw_bin(lista):
+    """wersja binarna"""
+    for i in range(1, len(lista)):
+        el = lista[i]
+        k = wyszukaj_binarnie(lewy, prawy, lista, el)
+
+        # tworzenie listy z wstawionym elementem
+        lista =
+
+
 def main(args):
     lista = [9, 8, 7, 6, 5, 4, 3]
     print(lista)
