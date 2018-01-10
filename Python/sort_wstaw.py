@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+from math import floor
+
 
 def sort_wstaw(lista):
     """wersja liniowa"""
@@ -15,8 +17,9 @@ def sort_wstaw(lista):
     return lista
 
 
-def wyszukaj_binarnie(lista, el):
-    lewy, prawy = 0, len(lista) - 1
+def wyszukaj_binarnie(lewy, prawy, lista, el):
+    """wersja iteracyjna wyszukiwania binarnego,
+    wyszukujemy indeks do wstawienia elementu"""
     while lewy < prawy:
         srodek = floor((lewy + prawy) / 2)
         print(srodek)
@@ -24,19 +27,18 @@ def wyszukaj_binarnie(lista, el):
             prawy = srodek
         else:
             lewy = srodek + 1
-    if lista[lewy] == el:
-        return lewy
-    return -1
+    return lewy
 
 
 def sort_wstaw_bin(lista):
     """wersja binarna"""
     for i in range(1, len(lista)):
         el = lista[i]
-        k = wyszukaj_binarnie(lewy, prawy, lista, el)
-
+        k = wyszukaj_binarnie(0, i, lista, el)
         # tworzenie listy z wstawionym elementem
-        lista =
+        lista = lista[:k] + [el] + lista[k:i] + lista[i + 1:]
+        print(lista)
+    return lista
 
 
 def main(args):
@@ -45,7 +47,7 @@ def main(args):
     #  [3, 4, 7, 0, 2, 3, 1, 9]
     #  [3, 4, 7, 0, 2, 3, 1, 9]
     #  [0, 3, 4, 7, 2, 3, 1, 9]
-    print(sort_wstaw(lista))
+    sort_wstaw_bin(lista)
     return 0
 
 
