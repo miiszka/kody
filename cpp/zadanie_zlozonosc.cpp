@@ -20,3 +20,10 @@ int main(int argc, char **argv)
     }
 	return 0;
 }
+
+// int n;
+// cout << "podaj n: ";
+// cin >> n;
+// for(i = 1; i < n; i += 2){
+// cout << i << " ";
+// }

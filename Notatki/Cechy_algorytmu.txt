@@ -18,3 +18,7 @@ Wnioskowanie indukcyjne - metoda dowodzenia czegoś,wnioskowanie z obserwacji.
 Dedukcja - od tego, co ogólne, do tego, co szczególne.
 
 W poprawności algorytmów należy uważać na błędy logiczne.
+
+**Złożoność czasowa** - zależy od ilości operacji. O(n), O(n^2), O (!n)
+**Złożoność pamięciowa** - ilość pamięci na wykonanie operacji. 
+Efektywność algorytmu zależy od typu danych, na których działa. 
