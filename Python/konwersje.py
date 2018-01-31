@@ -7,11 +7,11 @@ def dec2other(liczba10, podstawa):
     liczba = []  # pusta lista do zapamiętywania reszt
     while liczba10 != 0:
         reszta = liczba10 % podstawa  # obliczanie reszt z dzielenia
-        if reszta > 9: # wykorzystanie kodu ASCII
+        if reszta > 9:  # wykorzystanie kodu ASCII
             reszta = chr(reszta + 55)
         liczba.append(str(reszta))
         liczba10 = int(liczba10 / podstawa)
-    liczba.reverse() # odwrócenie kolejności
+    liczba.reverse()  # odwrócenie kolejności
     return "".join(liczba)
 
 
@@ -31,13 +31,15 @@ def other2dec(liczba, podstawa):
     liczba10 = 0
     potega = len(liczba) - 1
     for cyfra in liczba:
-        liczba10 += int(cyfra) * (podstawa ** potega)
+        if not cyfra.isdigit():
+            liczba10 += (ord(cyfra.upper()) - 55) * (podstawa ** potega)
+        else:
+            liczba10 += int(cyfra) * (podstawa ** potega)
         potega -= 1
     return liczba10
 
 
-    def zamiana2():
-    """ Pobieranie danych wejściowych """
+def zamiana2():
     liczba = input("Podaj liczbę: ")
     podstawa = int(input("Podaj podstawę: "))
     while podstawa < 2 or podstawa > 16:
