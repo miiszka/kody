@@ -8,6 +8,29 @@ Created środa 31 styczeń 2018
 unicode - zestaw znaków obejmujący wszystkie pisma używane na świecie
 I sposób konwersji : kod Morse'a
 000111000 - SOS 
+. . . - - - . . . 
+
 Kompresja może być stratna lub bezstratna
 Kompresja bezstratna, przykładowe rozszerzenia : odt, pptx 
 Kompresja stratna - pliki multimedialne, rozszerzenia : jpg, png, mkv (matroska) - forma przechowywania obrazu i dźwięku
+Bitrate - ilość informacji (bitów) na sekundę
+MP3 - 128 bitów na sekundę 
+CD - 256 b/s
+Bitrate = przepływność 
+Jednostki : kb - kilo bit , Mb - mega bit
+
+ASCII
+null 0
+line feed (koniec linii) 10
+Carriage return (koniec linii) 13
+Znak końca linii w Windows składa się z CR i LF,  w Linux tylko LF
+
+UTF-8 kodowanie wykorzystujące od 1 do 6 bajtów do zakodowania pojedynczego znaku 
+Algorytm słownikowy
+
+The rain in Spain falls mainly on the plain. ⇒ 44 znaki
+The rain <3, 3> Sp <9, 4> falls m<11, 3> ly on <34, 4> pl<15, 3>n. ⇒ 
+ile znaków wstecz ⇒ 6 bitów
+długość  ciągu ⇒ 2 bity
+ilość znaków ⇒
+Rc = Vk/ Vnk * 100 współczynnik kompresji
