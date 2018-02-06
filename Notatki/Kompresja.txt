@@ -29,8 +29,10 @@ UTF-8 kodowanie wykorzystujące od 1 do 6 bajtów do zakodowania pojedynczego zn
 Algorytm słownikowy
 
 The rain in Spain falls mainly on the plain. ⇒ 44 znaki
-The rain <3, 3> Sp <9, 4> falls m<11, 3> ly on <34, 4> pl<15, 3>n. ⇒ 
+The rain <3, 3> Sp <9, 4> falls m<11, 3> ly on <34, 4> pl<15, 3>n. ⇒ 33 bajty 
 ile znaków wstecz ⇒ 6 bitów
 długość  ciągu ⇒ 2 bity
 ilość znaków ⇒
 Rc = Vk/ Vnk * 100 współczynnik kompresji
+Rc = 33/44 * 100%
+Rc = 75%
