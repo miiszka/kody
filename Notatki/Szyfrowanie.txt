@@ -9,3 +9,17 @@ Szyfrowanie polega na ukryciu danych, czyli tekstu jawnego. Otrzymujemy w ten sp
 Do odszyfrowania potrzebny jest algorytm szyfrowania i klucz.
 
 ===== Rodzaje szyfrów =====
+
+==== Podstwieniowe ====
+Szyfr Cezara, klucz to odległość zastępnika
+
+==== Przestawieniowe ====
+Zapis tekstu w wierszach p ustalonej długości
+Klucz to ilość kolumn, na które dzielimy tekst. 
+TOBEORNOTTOBETHATISTHEQUESTIONAND
+
+TOBEORNOTT
+OBETHATIST
+HEQUESTION
+AND........
+tohaobenbeqdetu.ohe.
