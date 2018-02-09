@@ -16,7 +16,14 @@ def szyfruj(tekst, klucz):
 
 
 def deszyfruj():
-    pass
+    tekst = ""
+    reszta = len(tekst) % klucz
+    
+    for i in range(klucz):
+        for j in range(int(len(szyfrogram) / klucz)):
+            print()
+            
+    return tekst
 
 
 def main(args):
