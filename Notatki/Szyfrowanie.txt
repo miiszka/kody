@@ -23,3 +23,19 @@ OBETHATIST
 HEQUESTION
 AND........
 tohaobenbeqdetu.ohe.
+
+W DOMU 
+Zaszyfruj swoje dane osobowe, tj.: imię , nazwisko, data urodzenia, miejsce urodzenia przy użyciu 3 poznanych szyfrów; szyfru Cezara, podstawieniowego, szyfru Vigenere'a.
+W odpowiedzi podaj szyfrogramy i klucze.
+
+===== Szyfrowanie asymetryczne =====
+
+Protokół https - szyfrowana wersja http
+SSL
+TLS
+Tożsamość serweru - certyfikat 
+Szyfrowanie poczty elektornicznej: Pretty good privacy
+Kryptografia klucza publicznego- ciąg cyfr, który podajemy do publicznej wiadomości
+Algorytm RSA
+Podpis elektroniczny
+

@@ -6,12 +6,12 @@ def deszyfruj(szyfrogram, klucz):
 	tekst = ""
     klucz = klucz % 26
     for znak in szyfrogram:
-        if ord(znak)>64 and ord(znak)<91:
-            ascii = ord(znak) - klucz
-            if ascii > 90:
-                ascii -= 26
-        if ord(znak)>96 and ord(znak)<123:
-            ascii = ord(znak) - klucz
+        if ord(znak) > 64 and ord(znak) < 91:
+        ascii = ord(znak) - klucz
+        if ascii > 90:
+            ascii -= 26
+            if ord(znak)>96 and ord(znak)<123:
+                ascii = ord(znak) - klucz
         tekst += chr(ascii)
     return tekst
 
