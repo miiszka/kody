@@ -28,6 +28,33 @@ W DOMU
 Zaszyfruj swoje dane osobowe, tj.: imię , nazwisko, data urodzenia, miejsce urodzenia przy użyciu 3 poznanych szyfrów; szyfru Cezara, podstawieniowego, szyfru Vigenere'a.
 W odpowiedzi podaj szyfrogramy i klucze.
 
+ODP:
+Szyfr Cezara
+Klucz: 2
+imię: OKEJCNKPC
+nazwisko: SCSMC
+data urodzenia: 29   ZTBGUKGP 2000
+miejsce urodzenia: WCTPRDTBGI
+
+Szyfr przestawieniowy
+Klucz: 3
+imię: MHIIANCLA
+nazwisko: PKAAP.
+data ur.: 29 WEIRSAZN. 2000
+miejsce urodzenia: TNRGAOZ.RBE.
+
+Szyfr Vigenere'a
+słowo klucz: mic
+imię:  YQETIZNVC
+nazwisko: BIRWI
+data ur.: 29 IZBQAPUICM
+miejsce urodzenia: FITZWDDHGS
+
+
+
+
+
+
 ===== Szyfrowanie asymetryczne =====
 
 Protokół https - szyfrowana wersja http
