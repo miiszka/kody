@@ -50,10 +50,7 @@ nazwisko: BIRWI
 data ur.: 29 IZBQAPUICM
 miejsce urodzenia: FITZWDDHGS
 
-
-
-
-
+a no żeby było
 
 ===== Szyfrowanie asymetryczne =====
 
