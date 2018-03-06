@@ -5,7 +5,7 @@ Creation-Date: 2018-03-02T11:02:44+01:00
 ====== Komputer i system operacyjny ======
 Created piątek 02 marzec 2018
 
-logiczny model komputera
+===== logiczny model komputera =====
 Architektura von Neumanna:
 - procesor - jednostka arytmetyczna - wykonuje działania podstawowe 
 napięcie od 1 do 3.5 V - logiczne 1, mniej niż jeden - logiczne 0
@@ -19,3 +19,25 @@ Część danych bierze się z pamięci ROM - pamięć tylko do odczytu. Zachowuj
 4. Urządzenia wejścia i wyjścia:
 BIOS 
 UEFI
+
+===== system operacyjny =====
+Otwarty system operacyjny:
+- jest uniwersalny
+debian - najstarszy linuksowy system
+amd64 - architektura 64 bitowa 
+i386 (x86) - architektura 32 bitowych procesorów
+architektura ARM - stworzona do wytwarzania mikrokomputerów 
+-open source - otwarte oprogramowanie - jego źródło jest dostępne publicznie 
+**Funkcje otwartego systemu operacyjnego:**
+hardware, software, user - system operacyjny łączy te 3 rzeczy 
+wirtualizacja
+nadzoruje działanie komputera
+zarządzanie zasobami sprzętu
+**Składniki systemu operacyjnego:**
+Jądro systemu operacyjnego -  operuje bezpośrednio na sprzęcie, wczytuje sterowniki urządzeń. Udostępnianie w sposób wirtualny. 
+Sterowniki urządzeń  
+
+Pierwsze systemy były przeznaczone dla jednego użytkownika. Zwykły użytkownik rozpoznaje program przez interfejs. Interfejs tekstowy był6 udostępniany w formie terminala, było to urządzenie pozwalające na korzystanie z komputera.
+Windows rozpowszechnił interfejs graficzny. 
+
+
