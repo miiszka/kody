@@ -40,4 +40,24 @@ Sterowniki urządzeń
 Pierwsze systemy były przeznaczone dla jednego użytkownika. Zwykły użytkownik rozpoznaje program przez interfejs. Interfejs tekstowy był6 udostępniany w formie terminala, było to urządzenie pozwalające na korzystanie z komputera.
 Windows rozpowszechnił interfejs graficzny. 
 
+===== system operacyjny Microsoft =====
+
+**MS-DOS** - system operacyjny stworzony przez Microsoft na podstawie nabytego przez nią kodu źródłowego systemu QDOS. 
+A i B - litery zarezerwowane dla stacji dyskietek 
+\ - katalog główny
+ls /  - listowanie głównego katalogu (linux)
+cd np. dokumenty
+cd /home/kl2ag2/...
+.. - poziom do góry 
+w Windowsie pliki muszą mieć rozszerzenia
+w Linuxie plik rozpoznawany jest po nagłówku  
+atrybut a - plik zapisany na dysku 
+atrybut r - tylko do odczytu 
+h - hiden - plik ukryty 
+s - plik systemowy
+DOS był w stanie obsłużyć 640kB, wykorzystywał tryb rzeczywisty procesora
+**Windows 3.11** - Microsoft wymyślił menu, przyciski minimalizacji i maksymalizacji, przycisk zamknięcia i ikony
+**Windows 8 **- interfejs kafelkowy 
+
+
 
