@@ -60,4 +60,65 @@ DOS był w stanie obsłużyć 640kB, wykorzystywał tryb rzeczywisty procesora
 **Windows 8 **- interfejs kafelkowy 
 
 
+===== system operacyjny Linux =====
+
+
+Linux = jądro systemu 
+System własnościowy - zwykły użytkownik nie ma systemu (windows i iOS)
+Open source - otwarte oprogramowanie tworzone przez ludzi z całego świata. 
+Dystrybucja Linuxa składa się z jądra oraz oprogramowania dodatkowego
+Linux Mint, Debian, Ubuntu - najważniejsze dystrybucje Linuxa 
+rufus - wypalanie na pendrive
+Partycja - część dysku
+Wyróżniamy dwa sposoby partycjonowania dysku twardego:
+
+
+===== Sieci komputerowe =====
+
+**HOST - **dowolne urządzenie podpięte do sieci. Część z nich możemy określić mianem serwera, a część klienta. 
+Klient wysyła żądanie do serwera i oczekuje odpowiedzi od serwera. Na jednym komputerze można instalować  wiele usług.
+Skrętka jest zakończona wtyczką RJ45
+**Switch** - przełącznik sieciowy
+topologia gwiazdy - jedno urządzenie centralne typu switch, do którego podłączone są hosty
+**WAN - **sieć rozległa
+Router - jego zadaniem jest przerzucanie infromacji z interfejsu zewnętrznego na wewnętrzny
+
+Każdy komputer ma swój adres IP
+Gateway - trasa domyślna - adres routera
+Adres serwera DNS
+Internet - sieci rozległe i lokalne połączone ze sobą (sieć sieci) 
+Sieć szkieletowa 
+Protokół sieciowy (np. http, ftp)
+**TCP** - służy to sterowania transmisją
+**IP**
+Na jednym serwerze lub kliencie może być uruchomionych wiele aplikacji sieciowych. Są one uruchamiane na różnych portach.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
