@@ -92,10 +92,18 @@ Protokół sieciowy (np. http, ftp)
 **TCP** - służy to sterowania transmisją
 **IP**
 Na jednym serwerze lub kliencie może być uruchomionych wiele aplikacji sieciowych. Są one uruchamiane na różnych portach.
-
-
-
-
+Model TCP/IP
+Protokół POP - wykorzystywany przez aplikacje do obioru poczty
+DNS - Domain Name System:
+1. Baza rozproszona.
+TLD - top level domain
+adres URL:
+a. protokół
+b. domena
+c. poddomena
+d. nazwa serwera (hosta)
+ 
+MVPS HOST
 
 
 
