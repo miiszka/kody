@@ -26,9 +26,13 @@ def main(args):
     
     
     
-    dane = czytaj_dane('miasta.csv', ',')
-    dane.pop(0) # usuń pierwszy rekord z listy
-    cur.executemany('INSERT INTO miasta VALUES(?, ?, ?)', dane)
+    # ~dane = czytaj_dane('miasta.csv', ',')
+    # ~dane.pop(0) # usuń pierwszy rekord z listy
+    # ~cur.executemany('INSERT INTO miasta VALUES(?, ?, ?)', dane)
+    
+    dane = czytaj_dane('dane_demograficzne.csv')
+    dane.pop(0)
+    cur.executemany('INSERT INTO dane_demograficzne VALUES(?, ?, ?, ?, ?, ?)', dane)
     
     con.commit()
     con.close()
