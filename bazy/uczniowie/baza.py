@@ -22,8 +22,8 @@ def czytaj_dane(plik, separator=","):
     with open(plik, 'r', newline='', encoding='utf-8') as plikcsv:
         tresc = csv.reader(plikcsv, delimiter=separator)
         for rekord in tresc:
-            dane.append(rekord)
-    print(dane)
+            dane.append(tuple(rekord))
+    # print(dane)
     return dane
 
 
@@ -37,9 +37,9 @@ def ile_kolumn(cur, tab):
 
 def main(args):
     # konfiguracja ##########
-    baza = 'pracownicy'
-    tabele = ['pracownicy', 'kontakty', 'stanowiska', 'place']
-    roz = '.txt'
+    baza = 'uczniowie'
+    tabele = ['uczniowie', 'klasy', 'przedmioty', 'oceny']
+    roz = '.csv'
     naglowki = True # czy pliki źródłowe zawierają nagłówki?
     ###################
     con = sqlite3.connect(baza + '.db') # połączenie
@@ -52,7 +52,7 @@ def main(args):
     
     for tab in tabele:
         ile = ile_kolumn(cur, tab)
-        dane = czytaj_dane(tab + roz, separator=',')
+        dane = czytaj_dane(tab + roz, separator=',') # sprawdzić separator 
         ile_d=len(dane[0])
         if ile > ile_d:
             dane2 = [] # lista pomocnicza

@@ -39,7 +39,7 @@ def main(args):
     # konfiguracja ##########
     baza = 'pracownicy'
     tabele = ['pracownicy', 'kontakty', 'stanowiska', 'place']
-    roz = '.txt'
+    roz = '.csv'
     naglowki = True # czy pliki źródłowe zawierają nagłówki?
     ###################
     con = sqlite3.connect(baza + '.db') # połączenie
